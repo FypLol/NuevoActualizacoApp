@@ -1,0 +1,207 @@
+﻿namespace Proyecto_Mibanco
+{
+    partial class InicioPantalla
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioPantalla));
+            panelMenu = new Panel();
+            btnConvertir = new Button();
+            btnDeposito = new Button();
+            btnRetirar = new Button();
+            pictureBoxLogo = new PictureBox();
+            panelContenido = new Panel();
+            groupBox1 = new GroupBox();
+            pictureBox3 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox1 = new PictureBox();
+            panelMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
+            panelContenido.SuspendLayout();
+            groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
+            // 
+            // panelMenu
+            // 
+            panelMenu.AutoScroll = true;
+            panelMenu.BackColor = Color.FromArgb(229, 34, 41);
+            panelMenu.Controls.Add(btnConvertir);
+            panelMenu.Controls.Add(btnDeposito);
+            panelMenu.Controls.Add(btnRetirar);
+            panelMenu.Controls.Add(pictureBoxLogo);
+            panelMenu.Dock = DockStyle.Left;
+            panelMenu.Location = new Point(0, 0);
+            panelMenu.Name = "panelMenu";
+            panelMenu.Size = new Size(241, 561);
+            panelMenu.TabIndex = 0;
+            // 
+            // btnConvertir
+            // 
+            btnConvertir.FlatAppearance.BorderSize = 0;
+            btnConvertir.FlatAppearance.MouseOverBackColor = SystemColors.AppWorkspace;
+            btnConvertir.FlatStyle = FlatStyle.Flat;
+            btnConvertir.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnConvertir.ForeColor = Color.White;
+            btnConvertir.Location = new Point(3, 276);
+            btnConvertir.Name = "btnConvertir";
+            btnConvertir.Size = new Size(234, 65);
+            btnConvertir.TabIndex = 3;
+            btnConvertir.Text = "Convertidor";
+            btnConvertir.UseVisualStyleBackColor = true;
+            btnConvertir.Click += btnConvertir_Click;
+            // 
+            // btnDeposito
+            // 
+            btnDeposito.FlatAppearance.BorderSize = 0;
+            btnDeposito.FlatAppearance.MouseOverBackColor = SystemColors.AppWorkspace;
+            btnDeposito.FlatStyle = FlatStyle.Flat;
+            btnDeposito.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDeposito.ForeColor = Color.White;
+            btnDeposito.Location = new Point(0, 205);
+            btnDeposito.Name = "btnDeposito";
+            btnDeposito.Size = new Size(237, 65);
+            btnDeposito.TabIndex = 2;
+            btnDeposito.Text = "Deposito";
+            btnDeposito.UseVisualStyleBackColor = true;
+            btnDeposito.Click += btnDeposito_Click;
+            // 
+            // btnRetirar
+            // 
+            btnRetirar.FlatAppearance.BorderSize = 0;
+            btnRetirar.FlatAppearance.MouseOverBackColor = SystemColors.AppWorkspace;
+            btnRetirar.FlatStyle = FlatStyle.Flat;
+            btnRetirar.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRetirar.ForeColor = Color.White;
+            btnRetirar.Location = new Point(0, 134);
+            btnRetirar.Name = "btnRetirar";
+            btnRetirar.Size = new Size(241, 65);
+            btnRetirar.TabIndex = 1;
+            btnRetirar.Text = "Retirar";
+            btnRetirar.UseVisualStyleBackColor = true;
+            btnRetirar.Click += btnRetirar_Click;
+            // 
+            // pictureBoxLogo
+            // 
+            pictureBoxLogo.Image = (Image)resources.GetObject("pictureBoxLogo.Image");
+            pictureBoxLogo.Location = new Point(0, 3);
+            pictureBoxLogo.Name = "pictureBoxLogo";
+            pictureBoxLogo.Size = new Size(241, 125);
+            pictureBoxLogo.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBoxLogo.TabIndex = 0;
+            pictureBoxLogo.TabStop = false;
+            pictureBoxLogo.Click += pictureBoxLogo_Click;
+            // 
+            // panelContenido
+            // 
+            panelContenido.Controls.Add(groupBox1);
+            panelContenido.Location = new Point(243, 0);
+            panelContenido.Name = "panelContenido";
+            panelContenido.Size = new Size(692, 561);
+            panelContenido.TabIndex = 1;
+            panelContenido.Paint += panelContenido_Paint;
+            // 
+            // groupBox1
+            // 
+            groupBox1.BackColor = Color.White;
+            groupBox1.Controls.Add(pictureBox3);
+            groupBox1.Controls.Add(pictureBox2);
+            groupBox1.Controls.Add(pictureBox1);
+            groupBox1.Location = new Point(0, 0);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(687, 554);
+            groupBox1.TabIndex = 3;
+            groupBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(328, 322);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(366, 219);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 3;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(-5, 295);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(353, 269);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 2;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(119, 5);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(480, 274);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            // 
+            // InicioPantalla
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(934, 561);
+            Controls.Add(panelContenido);
+            Controls.Add(panelMenu);
+            MinimumSize = new Size(950, 600);
+            Name = "InicioPantalla";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "InicioPantalla";
+            Load += InicioPantalla_Load;
+            panelMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
+            panelContenido.ResumeLayout(false);
+            groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Panel panelMenu;
+        private Button btnRetirar;
+        private PictureBox pictureBoxLogo;
+        private Button btnConvertir;
+        private Button btnDeposito;
+        private Panel panelContenido;
+        private GroupBox groupBox1;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+    }
+}
